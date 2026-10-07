@@ -1,0 +1,35 @@
+# ---------------------------------------------------
+# Data & Privacy (CRITICAL)
+# ---------------------------------------------------
+# Ignore all raw and processed patient data
+data/
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# ---------------------------------------------------
+# Models & Processed Outputs
+# ---------------------------------------------------
+# Ignore large model files and serialized Python objects
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# ---------------------------------------------------
+# Jupyter Notebook & Python environments
+# ---------------------------------------------------
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# ---------------------------------------------------
+# OS-specific files
+# ---------------------------------------------------
+.DS_Store
+Thumbs.db
