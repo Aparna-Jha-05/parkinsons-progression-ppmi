@@ -19,14 +19,3 @@ I prioritize systems that can explain themselves and hold up under rigorous test
 *   **Bootstrap Feature Stability:** Extracted the most stable predictive features (e.g., age, GDS depression scores, DAT binding) across 30 bootstrap fits.
 *   **Survival Analysis:** Validated the time-to-event outcomes using Cox Proportional Hazards with censoring, checking for proportional hazards assumptions.
 *   **Explainable AI:** Utilized SHAP (SHapley Additive exPlanations) for feature attribution, ensuring the model's evidence could be traced back to clinical logic.
-
-## 📁 Repository Structure
-
-```text
-├── data/
-│   ├── raw/             # Ignored in git (PPMI data access rules)
-│   └── processed/       # Pickled modeling tables
-├── docs/                # Data dictionaries and PPMI methodology
-├── models/              # Saved LightGBM and Ridge pipelines
-├── reports/             # CV result CSVs and SHAP plots
-└── Parkinsons.ipynb     # Main pipeline (Data ingestion, cohort selection, modeling, CV)
